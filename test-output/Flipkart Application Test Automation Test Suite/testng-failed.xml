@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flipkart Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.ExtentReportListner.Extendreportlistner"/>
+  </listeners>
+  <test name="Flipkart Test Cases(failed)">
+    <classes>
+      <class name="com.Test.SelectFlightTest">
+        <methods>
+          <include name="SelectFlight_in_page_verify"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Test.SelectFlightTest -->
+    </classes>
+  </test> <!-- Flipkart Test Cases(failed) -->
+</suite> <!-- Failed suite [Flipkart Application Test Automation Test Suite] -->

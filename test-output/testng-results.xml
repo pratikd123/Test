@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flipkart Application Test Automation Test Suite" duration-ms="168894" started-at="2018-12-12T13:09:56Z" finished-at="2018-12-12T13:12:45Z">
+    <groups>
+    </groups>
+    <test name="Flipkart Test Cases" duration-ms="168894" started-at="2018-12-12T13:09:56Z" finished-at="2018-12-12T13:12:45Z">
+      <class name="com.Test.FlightFinderPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.FlightFinderPage@eec5a4a]" name="setup" is-config="true" duration-ms="10242" started-at="2018-12-12T18:40:04Z" finished-at="2018-12-12T18:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FlightFinder_in_page_verify()[pri:1, instance:com.Test.FlightFinderPage@eec5a4a]" name="FlightFinder_in_page_verify" duration-ms="16" started-at="2018-12-12T18:40:14Z" finished-at="2018-12-12T18:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightFinder_in_page_verify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.FlightFinderPage@eec5a4a]" name="tearDown" is-config="true" duration-ms="185" started-at="2018-12-12T18:40:14Z" finished-at="2018-12-12T18:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.FlightFinderPage@eec5a4a]" name="setup" is-config="true" duration-ms="8795" started-at="2018-12-12T18:41:07Z" finished-at="2018-12-12T18:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateFlightFinder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Test.FlightFinderPage@eec5a4a]" name="ValidateFlightFinder" duration-ms="2504" started-at="2018-12-12T18:41:16Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFlightFinder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.FlightFinderPage@eec5a4a]" name="tearDown" is-config="true" duration-ms="237" started-at="2018-12-12T18:41:18Z" finished-at="2018-12-12T18:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.FlightFinderPage -->
+      <class name="com.Test.SelectFlightTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.SelectFlightTest@2b2948e2]" name="setup" is-config="true" duration-ms="8568" started-at="2018-12-12T18:40:15Z" finished-at="2018-12-12T18:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SelectFlight_in_page_verify(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.Test.SelectFlightTest@2b2948e2]" name="SelectFlight_in_page_verify" duration-ms="2382" started-at="2018-12-12T18:40:24Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlight_in_page_verify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.SelectFlightTest@2b2948e2]" name="tearDown" is-config="true" duration-ms="228" started-at="2018-12-12T18:40:26Z" finished-at="2018-12-12T18:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.SelectFlightTest@2b2948e2]" name="setup" is-config="true" duration-ms="9698" started-at="2018-12-12T18:41:19Z" finished-at="2018-12-12T18:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify_Depart_Return_Details(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Test.SelectFlightTest@2b2948e2]" name="Verify_Depart_Return_Details" duration-ms="4875" started-at="2018-12-12T18:41:28Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:41:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Depart_Return_Details -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.SelectFlightTest@2b2948e2]" name="tearDown" is-config="true" duration-ms="197" started-at="2018-12-12T18:41:33Z" finished-at="2018-12-12T18:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.SelectFlightTest -->
+      <class name="com.Test.FlightConfirmationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.FlightConfirmationPageTest@57536d79]" name="setup" is-config="true" duration-ms="8380" started-at="2018-12-12T18:40:42Z" finished-at="2018-12-12T18:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FlightConfirmationpage_verify(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.Test.FlightConfirmationPageTest@57536d79]" name="FlightConfirmationpage_verify" duration-ms="7334" started-at="2018-12-12T18:40:51Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationpage_verify -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.FlightConfirmationPageTest@57536d79]" name="setup" is-config="true" duration-ms="12088" started-at="2018-12-12T18:41:48Z" finished-at="2018-12-12T18:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FlightConfirmationpage_verify_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Test.FlightConfirmationPageTest@57536d79]" name="FlightConfirmationpage_verify_1" duration-ms="7860" started-at="2018-12-12T18:42:00Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationpage_verify_1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.FlightConfirmationPageTest@57536d79]" name="setup" is-config="true" duration-ms="9557" started-at="2018-12-12T18:42:27Z" finished-at="2018-12-12T18:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FlightConfirmationpage_verify_2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.Test.FlightConfirmationPageTest@57536d79]" name="FlightConfirmationpage_verify_2" duration-ms="8415" started-at="2018-12-12T18:42:36Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationpage_verify_2 -->
+      </class> <!-- com.Test.FlightConfirmationPageTest -->
+      <class name="com.Test.Sigm_in_test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.Sigm_in_test@210366b4]" name="setup" is-config="true" duration-ms="6313" started-at="2018-12-12T18:39:56Z" finished-at="2018-12-12T18:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Sign_in_page_verify()[pri:1, instance:com.Test.Sigm_in_test@210366b4]" name="Sign_in_page_verify" duration-ms="65" started-at="2018-12-12T18:40:02Z" finished-at="2018-12-12T18:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_in_page_verify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.Sigm_in_test@210366b4]" name="tearDown" is-config="true" duration-ms="2054" started-at="2018-12-12T18:40:02Z" finished-at="2018-12-12T18:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.Sigm_in_test@210366b4]" name="setup" is-config="true" duration-ms="5883" started-at="2018-12-12T18:40:58Z" finished-at="2018-12-12T18:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Sign_in_page()[pri:2, instance:com.Test.Sigm_in_test@210366b4]" name="Sign_in_page" duration-ms="2975" started-at="2018-12-12T18:41:04Z" finished-at="2018-12-12T18:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_in_page -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.Sigm_in_test@210366b4]" name="tearDown" is-config="true" duration-ms="233" started-at="2018-12-12T18:41:07Z" finished-at="2018-12-12T18:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.Sigm_in_test -->
+      <class name="com.Test.Book_A_Flight_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="setup" is-config="true" duration-ms="11007" started-at="2018-12-12T18:40:26Z" finished-at="2018-12-12T18:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify_Book_A_Flight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="Verify_Book_A_Flight" duration-ms="4586" started-at="2018-12-12T18:40:37Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Book_A_Flight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="tearDown" is-config="true" duration-ms="210" started-at="2018-12-12T18:40:42Z" finished-at="2018-12-12T18:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="setup" is-config="true" duration-ms="8590" started-at="2018-12-12T18:41:33Z" finished-at="2018-12-12T18:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Book_A_Flight_Details(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="Book_A_Flight_Details" duration-ms="5239" started-at="2018-12-12T18:41:42Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_A_Flight_Details -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="tearDown" is-config="true" duration-ms="234" started-at="2018-12-12T18:41:47Z" finished-at="2018-12-12T18:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="setup" is-config="true" duration-ms="11550" started-at="2018-12-12T18:42:08Z" finished-at="2018-12-12T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Book_A_Flight_Details_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="Book_A_Flight_Details_1" duration-ms="7019" started-at="2018-12-12T18:42:19Z" data-provider="getnewtoursData" finished-at="2018-12-12T18:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acapulco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue Skies Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_A_Flight_Details_1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.Book_A_Flight_Test@6ddf90b0]" name="tearDown" is-config="true" duration-ms="375" started-at="2018-12-12T18:42:26Z" finished-at="2018-12-12T18:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.Book_A_Flight_Test -->
+    </test> <!-- Flipkart Test Cases -->
+  </suite> <!-- Flipkart Application Test Automation Test Suite -->
+</testng-results>

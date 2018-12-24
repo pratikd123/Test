@@ -1,0 +1,15 @@
+2018-12-12 18:40:02,481  INFO [main] Sigm_in_test:42 - ****************************** Starting test cases execution  *****************************************
+2018-12-12 18:40:02,541  INFO [main] Sigm_in_test:45 - entering application URL
+2018-12-12 18:40:02,541  WARN [main] Sigm_in_test:46 - Hey this just a warning message
+2018-12-12 18:40:02,541 FATAL [main] Sigm_in_test:47 - hey this is just fatal error message
+2018-12-12 18:40:02,541 DEBUG [main] Sigm_in_test:48 - this is debug message
+2018-12-12 18:42:45,461 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2018-12-12 18:42:45,471 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2018-12-12 18:42:45,471 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-12-12 18:42:45,471 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-12-12 18:42:45,471 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Mohan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-12-12 18:42:45,793 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2018-12-12 18:42:45,793 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2018-12-12 18:42:45,793 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-12-12 18:42:45,793 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-12-12 18:42:45,793 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Mohan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

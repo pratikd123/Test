@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flipkart Application Test Automation Test Suite">
+
+
+<listeners>
+		<listener class-name="com.ExtentReportListner.Extendreportlistner" />
+	</listeners>
+
+	<test name="Flipkart Test Cases">
+		<classes>
+			<class name="com.Test.Sigm_in_test"></class>
+			<class name="com.Test.FlightFinderPage"></class>
+			<class name="com.Test.SelectFlightTest"></class>
+			<class name="com.Test.Book_A_Flight_Test"></class>
+			<class name="com.Test.FlightConfirmationPageTest"></class>
+			</classes>
+	</test>
+</suite>
